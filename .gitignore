@@ -1,0 +1,106 @@
+# ------------------------------
+# Flutter / Dart / Android / iOS
+# ------------------------------
+
+# Dart
+.dart_tool/
+.packages
+.pub/
+.pub-cache/
+build/
+
+# Flutter
+.flutter-plugins
+.flutter-plugins-dependencies
+.flutter-versions
+.metadata
+
+# Coverage
+coverage/
+
+# Generated API Docs
+doc/api/
+
+# Logs
+*.log
+
+# Temporary Files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Linux
+.directory
+
+# VS Code
+.vscode/
+
+# IntelliJ / Android Studio
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Android
+/android/app/debug
+/android/app/profile
+/android/app/release
+/android/.gradle/
+/android/captures/
+/android/local.properties
+
+# iOS
+/ios/Flutter/.last_build_id
+/ios/Pods/
+/ios/.symlinks/
+/ios/Flutter/Flutter.framework
+/ios/Flutter/Flutter.podspec
+
+# Web
+/web-renderer/
+
+# Symbolication
+app.*.symbols
+
+# Obfuscation
+app.*.map.json
+
+# Firebase
+firebase-debug.log
+firebase-debug.*.log
+
+# Fastlane
+**/fastlane/report.xml
+**/fastlane/Preview.html
+**/fastlane/screenshots/
+
+# Crashlytics
+crashlytics-build.properties
+
+# Secrets / Environment
+.env
+.env.*
+
+# Node Modules (if using Firebase Functions)
+node_modules/
+
+# Generated Files
+generated_plugin_registrant.dart
+
+# Test Artifacts
+/test/coverage/
+
+# Miscellaneous
+.history/
+.svn/
+.atom/
+.swiftpm/
+migrate_working_dir/
